@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;unpackage&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../kgcoe-git.rit.edu" />
+    </CLASSES>
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
