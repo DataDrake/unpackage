@@ -15,6 +15,10 @@ func ModuleFileWalk(path, version string) (location string, err error) {
 		err = errors.New("Could not read Module directory '" + path + "', reason: " + err.Error())
 		return
 	}
+	if len(version) == 0 && len(files) > 0{
+		location = filepath.Join(path,files[0].Name())
+		return
+	}
 	for _,f := range files {
 		if !f.IsDir() && f.Name() == version {
 			location = filepath.Join(path,version)
